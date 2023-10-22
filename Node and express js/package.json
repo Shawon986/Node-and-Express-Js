@@ -1,0 +1,21 @@
+{
+  "name": "node-and-express-js",
+  "version": "1.0.0",
+  "description": "1. npm init -y\r 2. npm i --save express\r 3. npm i --save body-parser\r 4. npm i --save-dev nodemon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
